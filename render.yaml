@@ -1,8 +1,8 @@
 services:
   - type: web
     name: gym-backend
-    rootDir: backend
     env: node
+    rootDir: backend
     buildCommand: npm install
     startCommand: npm start
     plan: free
@@ -12,5 +12,5 @@ services:
     name: gym-frontend
     rootDir: frontend
     buildCommand: npm install && npm run build
-    publishPath: build
+    publishPath: dist
     autoDeploy: true
