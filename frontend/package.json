@@ -6,12 +6,12 @@
     "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "vite": "^7.1.12"
+    "vite": "^5.2.0"
   },
   "scripts": {
-    "start": "set PORT=3000 && react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": {
     "production": [
